@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="display" id="inputWindow">0</header>
+    
+    <button class="click op op-ac" onclick="calc(this)">AC</button>
+    <button class="click op op-neg" onclick="abs_plus_to_minus()">+/-</button>
+    <button class="click op op-percent" onclick="percent()">%</button>
+    <button class="click op op-main op-divide" onclick="divide()">÷</button>
+    <button class="click num-7" onclick="calc(this)">7</button>
+    <button class="click num-8" onclick="calc(this)">8</button>
+    <button class="click num-9" onclick="calc(this)">9</button>
+    <button class="click op op-main op-multi" onclick="multi()">×</button>
+    <button class="click num-4" onclick="calc(this)">4</button>
+    <button class="click num-5" onclick="calc(this)">5</button>
+    <button class="click num-6" onclick="calc(this)">6</button>
+    <button class="click op op-main op-minus" onclick="minus()">-</button>
+    <button class="click num-1" onclick="calc(this)">1</button>
+    <button class="click num-2" onclick="calc(this)">2</button>
+    <button class="click num-3" onclick="calc(this)">3</button>
+    <button class="click op op-main op-plus" onclick="calc(this)">+</button>
+    <button class="click num-0" onclick="calc(this)">0</button>
+    <button class="click num-dot" onclick="calc(this)">.</button>
+    <button class="click op op-main op-eql" onclick="calc(this)">=</button>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+
+</html>
